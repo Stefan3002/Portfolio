@@ -1,0 +1,102 @@
+.home-page-container {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+}
+.home-page-container .home-utils {
+  display: flex;
+  align-items: center;
+}
+.home-page-container .home-utils i {
+  margin-left: 0.5em;
+}
+.home-page-container .border-decoration1 {
+  border: 10px solid var(--secondary-text-color);
+  height: 90%;
+  width: 90%;
+  z-index: -1;
+  position: absolute;
+  left: -30px;
+  top: -30px;
+}
+.home-page-container .border-decoration2 {
+  border: 10px solid var(--gradient-color);
+  height: 90%;
+  width: 95%;
+  z-index: -1;
+  position: absolute;
+  right: -30px;
+  bottom: -30px;
+}
+.home-page-container .text-container {
+  text-align: justify;
+}
+.home-page-container .text-container .greeting {
+  font-size: 2em;
+  line-height: 0;
+}
+.home-page-container .text-container .my-name-container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+.home-page-container .text-container .my-name-container .my-name {
+  font-size: 3em;
+  color: var(--secondary-text-color);
+  margin-bottom: 0.5em;
+  margin-left: 0.3em;
+  background: var(--gradient-color);
+  padding: 0.5em;
+  transform: rotate(-15deg);
+  box-shadow: 10px 10px 10px black;
+}
+.home-page-container em {
+  font-size: 1.4em;
+}
+.home-page-container em h2 {
+  font-size: 2em;
+}
+.home-page-container .img-container {
+  position: relative;
+  margin-left: 5em;
+}
+.home-page-container .img-container img {
+  width: 400px;
+  height: 330px;
+}
+
+@media screen and (max-width: 1330px) {
+  .home-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .home-page-container .img-container {
+    margin-top: 3em;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .home-page-container {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .home-page-container .img-container img {
+    width: 350px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .home-page-container .img-container img {
+    width: 300px;
+    height: 220px;
+  }
+}
+
+/*# sourceMappingURL=homepage.styles.css.map */

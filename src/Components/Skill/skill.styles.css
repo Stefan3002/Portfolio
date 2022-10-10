@@ -1,0 +1,18 @@
+.skill-container {
+  padding: 1em;
+  margin: 0.3em;
+  background: var(--bg-color);
+}
+.skill-container:hover {
+  box-shadow: 7px 7px 10px black;
+  transition: all 0.1s;
+  background: var(--bg-color);
+}
+
+@media screen and (max-width: 650px) {
+  .skill-container {
+    padding: 0.5em;
+  }
+}
+
+/*# sourceMappingURL=skill.styles.css.map */

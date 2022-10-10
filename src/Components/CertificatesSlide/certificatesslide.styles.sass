@@ -1,0 +1,45 @@
+.certificates-slide-container
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-gap: 2em
+  position: relative
+  //padding-left: 7em
+  .right-slide-container
+    z-index: 4
+    position: absolute
+    right: -80px
+    top: 50%
+    transform: translate(0,-50%)
+  .left-slide-container
+    z-index: 4
+    position: absolute
+    left: -80px
+    top: 50%
+    transform: translate(0,-50%)
+
+@media screen and (max-width: 1500px)
+  .certificates-slide-container
+    grid-template-columns: repeat(1, 1fr)
+@media screen and (min-width: 2000px)
+  .certificates-slide-container
+    grid-template-columns: repeat(3, 1fr)
+@media screen and (min-width: 2500px)
+  .certificates-slide-container
+    grid-template-columns: repeat(4, 1fr)
+@media screen and (min-width: 3000px)
+  .certificates-slide-container
+    grid-template-columns: repeat(5, 1fr)
+
+
+@media screen and (max-width: 800px)
+  .certificates-slide-container
+    .nav-buttons
+      display: flex
+      justify-content: center
+      align-items: center
+    .left-slide-container
+      position: relative
+      text-align: center
+    .right-slide-container
+      text-align: center
+      position: relative

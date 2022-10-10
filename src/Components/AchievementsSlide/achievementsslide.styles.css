@@ -1,0 +1,60 @@
+.achievements-slide-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 0 auto;
+  justify-content: center;
+  position: relative;
+}
+.achievements-slide-container .right-slide-container {
+  z-index: 4;
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.achievements-slide-container .left-slide-container {
+  z-index: 4;
+  position: absolute;
+  left: -35px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+@media screen and (max-width: 1500px) {
+  .achievements-slide-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 2000px) {
+  .achievements-slide-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 2500px) {
+  .achievements-slide-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 3000px) {
+  .achievements-slide-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media screen and (max-width: 800px) {
+  .achievements-slide-container .nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .achievements-slide-container .left-slide-container {
+    position: relative;
+    text-align: center;
+  }
+  .achievements-slide-container .right-slide-container {
+    text-align: center;
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=achievementsslide.styles.css.map */

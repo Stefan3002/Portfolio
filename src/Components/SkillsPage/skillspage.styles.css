@@ -1,0 +1,16 @@
+.skills-page-container {
+  height: 85vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 1000px) {
+  .skills-page-container {
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=skillspage.styles.css.map */

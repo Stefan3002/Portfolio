@@ -1,0 +1,59 @@
+.about-page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+}
+.about-page-container .left-info {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 13px;
+}
+.about-page-container .left-info .info-item {
+  margin: 0 2em;
+}
+.about-page-container .left-info .contact-me-button {
+  margin-top: 1em;
+}
+.about-page-container .right-info {
+  position: relative;
+  text-align: center;
+}
+.about-page-container .right-info .see-skills-button {
+  margin-top: 50px;
+}
+.about-page-container .frame-decoration1 {
+  height: 80%;
+  width: 80%;
+  right: -20px;
+  bottom: -40px;
+  z-index: -1;
+  border: 10px solid var(--secondary-text-color);
+  position: absolute;
+}
+.about-page-container .frame-decoration2 {
+  height: 80%;
+  width: 80%;
+  left: -15px;
+  top: -35px;
+  z-index: -1;
+  border: 10px solid var(--gradient-color);
+  position: absolute;
+}
+.about-page-container .current-occupation {
+  line-height: 0;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 1600px) {
+  .about-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=aboutpage.styles.css.map */

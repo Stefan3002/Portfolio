@@ -1,0 +1,86 @@
+.navigation-container
+  z-index: 5
+  animation-name: slide-right
+  animation-duration: 1s
+  background: var(--bg-color)
+  padding: 2em
+  width: 400px
+  height: 95vh
+  overflow: auto
+  display: flex
+  flex-direction: column
+  justify-content: center
+  .profile-info
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+  img
+    z-index: 100
+    margin: 10px
+    width: 300px
+    height: 250px
+    //height: 190px
+    border-radius: 10px
+    //border: 10px solid var(--border-color)
+  ul
+    padding: 0
+    display: flex
+    flex-direction: column
+    list-style-type: none
+    li
+      margin: .65em 0
+      background: var(--nav-li-background-color)
+      padding: 1em
+      display: flex
+      justify-content: center
+      border-radius: 10px
+      position: relative
+      .left-container-high
+        background: var(--nav-high-color)
+        padding: 1em
+        border-radius: 10px 0 0 10px
+        position: absolute
+        top: 0
+        left: 0
+      .right-container-high
+        background: var(--nav-high-color)
+        padding: 1em
+        border-radius: 0 10px 10px 0
+        position: absolute
+        top: 0
+        right: 0
+        transition: all .5s
+        &:hover
+          background: radial-gradient(circle at left top, var(--secondary-text-color), var(--gradient-color))
+          transition: all .5s
+    .fa
+      margin: 0 .5em
+
+.custom-shape-divider-top-1664824908
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  overflow: hidden
+  line-height: 0
+  z-index: 3
+
+
+.custom-shape-divider-top-1664824908 svg
+  position: relative
+  display: block
+  width: calc(100% + 1.3px)
+  height: 150px
+
+
+.custom-shape-divider-top-1664824908 .shape-fill
+  fill: #DC143C
+
+.custom-shape-divider-bottom-1664825130
+  z-index: 3
+
+@media screen and (max-width: 1000px)
+  .navigation-container
+    position: fixed
+    z-index: 5

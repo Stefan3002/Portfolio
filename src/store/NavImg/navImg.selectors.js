@@ -1,0 +1,1 @@
+export const getNavImg = (state) => state.navImg.navImg

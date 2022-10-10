@@ -1,0 +1,38 @@
+.skill-category-container
+  padding: 1em
+  border-radius: 10px
+  margin: 1em 0
+  font-size: 1em
+  text-align: center
+  .skills
+    text-align: center
+    display: grid
+    grid-template-columns: repeat(4,1fr)
+    justify-content: center
+  .slides-buttons
+    margin-top: 2em
+    display: flex
+    justify-content: center
+    .left-slide-container
+      z-index: 4
+      cursor: pointer
+      margin-right: 1em
+    .right-slide-container
+      z-index: 4
+      cursor: pointer
+      margin-left: 1em
+
+@media screen and (max-width: 1000px)
+  .skill-category-container
+    .skills
+      grid-template-columns: repeat(3,1fr)
+
+@media screen and (min-width: 1500px)
+  .skill-category-container
+    .skills
+      grid-template-columns: repeat(5,1fr)
+
+@media screen and (min-width: 2000px)
+  .skill-category-container
+    .skills
+      grid-template-columns: repeat(7,1fr)

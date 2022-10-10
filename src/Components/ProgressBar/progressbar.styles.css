@@ -1,0 +1,16 @@
+.progress-bar-container .progress-container {
+  background: var(--gradient-color);
+  width: 100%;
+  height: 10px;
+  position: relative;
+}
+.progress-bar-container .progress-container .progress-value {
+  height: 10px;
+  background: var(--secondary-text-color);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=progressbar.styles.css.map */

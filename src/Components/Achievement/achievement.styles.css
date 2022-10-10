@@ -1,0 +1,44 @@
+.achievement-container {
+  background: var(--bg-color);
+  max-width: 600px;
+  padding: 2em;
+  transition: all 0.2s;
+  animation-name: pop-up;
+  animation-duration: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.achievement-container:hover {
+  box-shadow: 7px 7px 10px black;
+  transition: all 0.1s;
+  background: var(--bg-color);
+}
+.achievement-container .date {
+  line-height: 10px;
+}
+.achievement-container .title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.achievement-container .title-container img {
+  margin-right: 1em;
+  width: 100px;
+}
+.achievement-container .title-container .title {
+  font-size: 1.8em;
+  line-height: 0;
+}
+.achievement-container .content {
+  font-weight: 200;
+}
+.achievement-container .high1 {
+  font-size: 1.2em;
+  color: var(--secondary-text-color);
+  font-weight: bold;
+}
+.achievement-container .high2 {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=achievement.styles.css.map */
