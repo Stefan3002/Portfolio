@@ -1,0 +1,17 @@
+.project {
+  height: 400px;
+  position: relative;
+}
+.project img {
+  filter: sepia(100);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.2s;
+}
+.project img:hover, .project img:focus {
+  filter: sepia(0);
+  transition: all 0.2s;
+}
+
+/*# sourceMappingURL=project.css.map */

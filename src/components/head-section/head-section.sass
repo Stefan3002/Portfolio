@@ -1,0 +1,24 @@
+.head-section
+  .profile-info-wrapper
+    position: relative
+    //outline: 10px solid red
+    height: 180px
+    .profile-info
+      position: absolute
+      left: 0
+      top: -50px
+      display: flex
+      align-items: center
+      .text
+        margin-top: 1em
+        text-align: left
+        line-height: 10px
+
+@media screen and (max-width: 600px)
+  .head-section
+    .profile-info-wrapper
+      height: 230px
+      .profile-info
+        .text
+          margin-top: 3em
+          line-height: 30px

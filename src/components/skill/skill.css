@@ -1,0 +1,29 @@
+.skill {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 1em;
+  width: fit-content;
+  margin: 0.4em 0.5em;
+  transition: all 0.2s;
+}
+.skill .skill-icon {
+  width: 100px;
+}
+.skill .skill-name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.skill .skill-mastery {
+  font-weight: 300;
+}
+.skill .star-icon {
+  width: 20px;
+}
+.skill:hover, .skill:focus {
+  background: white;
+  color: black;
+  transform: scale(1.1);
+  transition: all 0.2s;
+}
+
+/*# sourceMappingURL=skill.css.map */

@@ -1,0 +1,28 @@
+.head-section .profile-info-wrapper {
+  position: relative;
+  height: 180px;
+}
+.head-section .profile-info-wrapper .profile-info {
+  position: absolute;
+  left: 0;
+  top: -50px;
+  display: flex;
+  align-items: center;
+}
+.head-section .profile-info-wrapper .profile-info .text {
+  margin-top: 1em;
+  text-align: left;
+  line-height: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .head-section .profile-info-wrapper {
+    height: 230px;
+  }
+  .head-section .profile-info-wrapper .profile-info .text {
+    margin-top: 3em;
+    line-height: 30px;
+  }
+}
+
+/*# sourceMappingURL=head-section.css.map */

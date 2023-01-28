@@ -1,0 +1,11 @@
+.banner {
+  height: 80vh;
+  background-size: cover;
+  background-image: URL("../../utils/images/header/Banner.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+/*# sourceMappingURL=banner.css.map */

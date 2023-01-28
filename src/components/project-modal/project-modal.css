@@ -1,0 +1,41 @@
+.project-modal {
+  text-align: center;
+  background: var(--accent-color);
+  border-radius: 0 0 10px 10px;
+  padding: 1em;
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 94.5%;
+  height: fit-content;
+}
+.project-modal:hover, .project-modal:focus .project {
+  filter: sepia(0);
+}
+.project-modal .project-icon {
+  width: 50px;
+}
+.project-modal .modal-body {
+  display: flex;
+  padding: 1em;
+}
+.project-modal .modal-header {
+  line-height: 20px;
+}
+.project-modal .modal-header .project-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+.project-modal .modal-header ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.project-modal .modal-header ul li {
+  margin: 0 1em;
+}
+
+/*# sourceMappingURL=project-modal.css.map */

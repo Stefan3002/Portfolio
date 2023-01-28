@@ -1,7 +1,37 @@
 .App {
   text-align: center;
+  font-family: 'Unbounded', cursive;
 }
-
+.center-container {
+  width: 80%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: var(--accent-color)
+}
+:root {
+  --accent-color: rgba(20, 125, 245, 0.7);
+}
+.high{
+  color: var(--accent-color)
+}
+@media screen and (min-width: 2000px){
+  .center-container {
+    width: 60%;
+  }
+}
+ul {
+  padding: 0
+}
+.section-header {
+  font-size: 3em;
+}
+@media screen and (max-width: 1000px){
+  .center-container {
+    width: 95%;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
