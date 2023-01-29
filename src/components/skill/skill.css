@@ -14,7 +14,7 @@
   font-size: 1.2em;
 }
 .skill .skill-mastery {
-  font-weight: 300;
+  font-weight: 100;
 }
 .skill .star-icon {
   width: 20px;
@@ -23,6 +23,7 @@
   background: white;
   color: black;
   transform: scale(1.1);
+  box-shadow: 10px 10px 10px black;
   transition: all 0.2s;
 }
 

@@ -1,6 +1,10 @@
+.education {
+  margin: 5em 0;
+}
+
 .education-places-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   align-items: center;
 }
 

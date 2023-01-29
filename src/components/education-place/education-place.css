@@ -1,14 +1,17 @@
 .education-place {
+  position: relative;
+  margin: 0 0.5em;
   background: whitesmoke;
-  width: fit-content;
   text-align: center;
   padding: 1em;
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
+  transition: all 0.2s;
 }
-.education-place .next-button {
+.education-place:hover, .education-place:focus {
   background: var(--accent-color);
-  padding: 1em;
-  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transform: scale(1.1);
+  transition: all 0.2s;
   color: white;
 }
 .education-place ul {

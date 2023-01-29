@@ -1,0 +1,30 @@
+.cs-skill .segment .outer {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
+}
+.cs-skill .segment .outer .inner {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.cs-skill .segment .outer .filled {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 25px solid rebeccapurple;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  clip: rect(0px, 55px, 150px, 0px);
+}
+
+/*# sourceMappingURL=cs-skill.css.map */

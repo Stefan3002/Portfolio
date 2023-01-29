@@ -4,11 +4,19 @@
   background: var(--accent-color);
   color: white;
 }
-.skills ul {
+.skills .web-skills {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+.skills .cs-skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills .cs-skills li {
+  margin: 0 0.5em;
 }
 
 /*# sourceMappingURL=skills.css.map */

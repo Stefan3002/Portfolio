@@ -1,0 +1,29 @@
+.soft-skill .back-line {
+  width: 200px;
+  height: 10px;
+  border: 2px solid white;
+  border-radius: 20px 0 20px 0;
+  position: relative;
+}
+.soft-skill .back-line .front-line {
+  border-radius: 20px 0 20px 0;
+  position: absolute;
+  width: 100px;
+  height: 10px;
+  background: white;
+  left: 0;
+  top: 0;
+}
+.soft-skill .segment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soft-skill .segment .mastery {
+  font-weight: 100;
+}
+.soft-skill .segment p {
+  margin: 0 0.5em;
+}
+
+/*# sourceMappingURL=soft-skill.css.map */

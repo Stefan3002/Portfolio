@@ -1,4 +1,8 @@
-.profile-image img {
+.profile-image {
+  z-index: 100;
+  position: relative;
+}
+.profile-image .profile-img {
   width: 210px;
   height: 200px;
   border-radius: 50%;
@@ -7,7 +11,7 @@
   margin-right: 20px;
   transition: all 0.2s;
 }
-.profile-image img:hover, .profile-image img:focus {
+.profile-image .profile-img:hover, .profile-image .profile-img:focus {
   transform: scale(1.1);
   filter: sepia(100);
   transition: all 0.2s;
