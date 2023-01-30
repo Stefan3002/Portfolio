@@ -6,7 +6,6 @@ const startProfileImgAnimation = () => {
 
 const bringProfileImgInView = () => {
     const profileImg = document.querySelector('.profile-image')
-    console.log('SCROLL', window.scrollY)
     if(window.scrollY >= 200)
         gsap.to(profileImg, {duration: .5, x: `-150px`})
 

@@ -2,6 +2,7 @@
   text-align: center;
 }
 header, body, footer {
+  overflow-x: clip;
   font-family: 'Unbounded', cursive;
 }
 .center-container {
@@ -16,14 +17,14 @@ a{
   color: var(--accent-color)
 }
 :root {
-  --accent-color: rgba(20, 125, 245, 0.7);
+  --accent-color: rgba(20, 125, 245, .8);
 }
 .high{
   color: var(--accent-color)
 }
 @media screen and (min-width: 2000px){
   .center-container {
-    width: 60%;
+    width: 55%;
   }
 }
 ul {

@@ -10,6 +10,7 @@ const Navigation = () => {
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
             </ul>
             <Divider />
             <div className="bottom-section">

@@ -14,6 +14,7 @@ import SQLSVG from '../../utils/images/body/skills/SQL.svg'
 import SoftSkill from "../soft-skill/soft-skill";
 import CsSkill from "../cs-skill/cs-skill";
 import Divider from "../divider/divider";
+import Triangle from "../triangle/triangle";
 const Skills = () => {
 
     const skills = [

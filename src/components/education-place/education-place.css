@@ -4,7 +4,7 @@
   background: whitesmoke;
   text-align: center;
   padding: 1em;
-  border-radius: 0 0 10px 10px;
+  border-radius: 30px 0 30px 0;
   transition: all 0.2s;
 }
 .education-place:hover, .education-place:focus {

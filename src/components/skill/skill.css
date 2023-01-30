@@ -1,6 +1,6 @@
 .skill {
   border: 2px solid white;
-  border-radius: 10px;
+  border-radius: 20px 0 20px 0;
   padding: 1em;
   width: fit-content;
   margin: 0.4em 0.5em;

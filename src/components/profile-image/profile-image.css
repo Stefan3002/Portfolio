@@ -1,4 +1,6 @@
 .profile-image {
+  animation-duration: 0.5s;
+  animation-name: slide-right;
   z-index: 100;
   position: relative;
 }
@@ -15,6 +17,15 @@
   transform: scale(1.1);
   filter: sepia(100);
   transition: all 0.2s;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 /*# sourceMappingURL=profile-image.css.map */
