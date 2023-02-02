@@ -11,6 +11,7 @@ const Navigation = () => {
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#certificates">Certificates</a></li>
             </ul>
             <Divider />
             <div className="bottom-section">

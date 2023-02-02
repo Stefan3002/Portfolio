@@ -1,0 +1,24 @@
+.certificates {
+  margin-top: 4em;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: -10px;
+}
+.certificates a {
+  overflow: hidden;
+}
+.certificates img {
+  transition: all 0.2s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: sepia(100);
+}
+.certificates img:hover, .certificates img:focus {
+  transform: scale(1.2);
+  filter: sepia(0);
+  transition: all 0.2s;
+}
+
+/*# sourceMappingURL=certificates.css.map */
