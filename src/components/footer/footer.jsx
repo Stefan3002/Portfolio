@@ -36,6 +36,7 @@ const Footer = () => {
                <p> https://www.svgrepo.com/svg/241056/england</p>
                <p> https://www.svgrepo.com/svg/279366/pen-writer</p>
                <p> https://www.svgrepo.com/svg/474437/academic-exchange</p>
+               <p> https://www.svgrepo.com/svg/306956/webgl</p>
             </div>}
         </div>
     )

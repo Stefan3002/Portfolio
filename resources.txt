@@ -23,3 +23,4 @@ https://www.svgrepo.com/svg/475613/keyboard
 https://www.svgrepo.com/svg/241056/england
 https://www.svgrepo.com/svg/279366/pen-writer
 https://www.svgrepo.com/svg/474437/academic-exchange
+https://www.svgrepo.com/svg/306956/webgl

@@ -11,6 +11,7 @@ import FirebaseSVG from '../../utils/images/body/skills/Firebase.svg'
 import SASSSVG from '../../utils/images/body/skills/SASS.svg'
 import CSSSVG from '../../utils/images/body/skills/CSS.svg'
 import SQLSVG from '../../utils/images/body/skills/SQL.svg'
+import WebGlSVG from '../../utils/images/body/skills/WebGlSVG.svg'
 import SoftSkill from "../soft-skill/soft-skill";
 import CsSkill from "../cs-skill/cs-skill";
 import Divider from "../divider/divider";
@@ -72,6 +73,11 @@ const Skills = () => {
             name: 'SQL',
             mastery: 50,
             icon: SQLSVG
+        },
+        {
+            name: 'Three JS',
+            mastery: 10,
+            icon: WebGlSVG
         }
     ]
 
