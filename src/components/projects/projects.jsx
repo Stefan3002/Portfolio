@@ -21,7 +21,8 @@ const Projects = () => {
             name: 'Shop-n-All',
             tech: ['✅ React JS.', '✅ JavaScript'],
             description: 'A fully featured e-commerce WEB app featuring: reviews, profile, favourites and more. Made using React.',
-            image: Shop
+            image: Shop,
+            link: 'https://golden-cupcake-87fcb9.netlify.app/'
         },
         {
             name: 'Adventure Park CMS',
