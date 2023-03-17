@@ -6,6 +6,7 @@ import Mention from '../../utils/images/certificates/Mention.jpg'
 import CAE from '../../utils/images/certificates/CAE.jpg'
 import CSS from '../../utils/images/certificates/CSS.png'
 import HTML from '../../utils/images/certificates/HTML.png'
+import SoftwareEng from '../../utils/images/certificates/Software Engineering.jpg'
 const Certificates = () => {
     return (
         <>
@@ -18,6 +19,7 @@ const Certificates = () => {
                 <a href={CAE}><img src={CAE} alt=""/></a>
                 <a href={CSS}><img src={CSS} alt=""/></a>
                 <a href={HTML}><img src={HTML} alt=""/></a>
+                <a href={SoftwareEng}><img src={SoftwareEng} alt=""/></a>
                 {/*<img src={JSADV} alt=""/>*/}
             </div>
         </>
