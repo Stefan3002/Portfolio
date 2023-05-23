@@ -16,6 +16,10 @@ import SoftSkill from "../soft-skill/soft-skill";
 import CsSkill from "../cs-skill/cs-skill";
 import Divider from "../divider/divider";
 import Triangle from "../triangle/triangle";
+import machineLearningSVG from '../../utils/images/body/skills/Machine Learning.svg'
+import pandasSVG from '../../utils/images/body/skills/pandasSVG.svg'
+import tensorFlowSVG from '../../utils/images/body/skills/tensorFlowSVG.svg'
+import pythonSVG from '../../utils/images/body/skills/pythonSVG.svg'
 const Skills = () => {
 
     const skills = [
@@ -78,6 +82,28 @@ const Skills = () => {
             name: 'Three JS',
             mastery: 10,
             icon: WebGlSVG
+        },
+    ]
+    const MLSkills = [
+        {
+            name: 'ML',
+            mastery: 5,
+            icon: machineLearningSVG
+        },
+        {
+            name: 'Pandas',
+            mastery: 5,
+            icon: pandasSVG
+        },
+        {
+            name: 'Tensor Flow',
+            mastery: 0,
+            icon: tensorFlowSVG
+        },
+        {
+            name: 'Python',
+            mastery: 15,
+            icon: pythonSVG
         }
     ]
 
@@ -89,7 +115,7 @@ const Skills = () => {
         },
         {
             name: 'Team player',
-            mastery: 80,
+            mastery: 60,
             icon: undefined
         },
         {
@@ -126,6 +152,13 @@ const Skills = () => {
                 <Divider />
                 <ul className='web-skills'>
                     {skills.map((skill) => {
+                        return <Skill skill={skill} key={skill.name} />
+                    })}
+                </ul>
+                <h3 className='subheader-name'>Machine Learning Skills</h3>
+                <Divider />
+                <ul className='web-skills'>
+                    {MLSkills.map((skill) => {
                         return <Skill skill={skill} key={skill.name} />
                     })}
                 </ul>

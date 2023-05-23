@@ -24,3 +24,7 @@ https://www.svgrepo.com/svg/241056/england
 https://www.svgrepo.com/svg/279366/pen-writer
 https://www.svgrepo.com/svg/474437/academic-exchange
 https://www.svgrepo.com/svg/306956/webgl
+https://www.svgrepo.com/svg/375528/ai-platform-unified
+https://www.svgrepo.com/svg/191391/panda-bear-panda
+https://www.svgrepo.com/svg/375503/tensorflow-enterprise
+https://www.svgrepo.com/svg/452091/python
