@@ -9,6 +9,7 @@ import HTML from '../../utils/images/certificates/HTML.png'
 import SoftwareEng from '../../utils/images/certificates/Software Engineering.jpg'
 import CleanCode from '../../utils/images/certificates/CleanCode.jpg'
 import TypeScript from '../../utils/images/certificates/TypeScript.jpg'
+import MERN from '../../utils/images/certificates/MERN.jpg'
 const Certificates = () => {
     return (
         <>
@@ -24,6 +25,7 @@ const Certificates = () => {
                 <a href={SoftwareEng}><img src={SoftwareEng} alt=""/></a>
                 <a href={CleanCode}><img src={CleanCode} alt=""/></a>
                 <a href={TypeScript}><img src={TypeScript} alt=""/></a>
+                <a href={MERN}><img src={MERN} alt=""/></a>
                 {/*<img src={JSADV} alt=""/>*/}
             </div>
         </>
