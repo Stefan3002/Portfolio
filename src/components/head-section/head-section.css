@@ -5,7 +5,7 @@
 .head-section .profile-info-wrapper .profile-info {
   position: absolute;
   left: 0;
-  top: -50px;
+  top: -30px;
   display: flex;
   align-items: center;
 }

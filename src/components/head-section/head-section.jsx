@@ -11,6 +11,7 @@ const HeadSection = () => {
                     <div className="text">
                         <h1>Stefan Secrieru</h1>
                         <p><span className="high">Student</span> | Aspiring WEB Developer</p>
+                        <p><span className="high">WEB Administrator</span>  at WUT</p>
                         <p>West University of Timisoara</p>
                         <p><a target='_blank' href="https://www.linkedin.com/in/%C8%99tefan-secrieru-b0b60b224/">.in</a></p>
                     </div>

@@ -37,6 +37,13 @@ const Footer = () => {
                <p> https://www.svgrepo.com/svg/279366/pen-writer</p>
                <p> https://www.svgrepo.com/svg/474437/academic-exchange</p>
                <p> https://www.svgrepo.com/svg/306956/webgl</p>
+                <p>https://www.svgrepo.com/svg/375528/ai-platform-unified</p>
+                <p>https://www.svgrepo.com/svg/191391/panda-bear-panda</p>
+                <p>https://www.svgrepo.com/svg/375503/tensorflow-enterprise</p>
+                <p>https://www.svgrepo.com/svg/452091/python</p>
+                <p>https://www.svgrepo.com/svg/454722/book-education-learn</p>
+                <p>https://www.svgrepo.com/svg/444237/chart-scatter-plot</p>
+                <p>https://www.svgrepo.com/svg/373554/django</p>
             </div>}
         </div>
     )

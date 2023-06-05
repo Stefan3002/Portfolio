@@ -20,6 +20,9 @@ import machineLearningSVG from '../../utils/images/body/skills/Machine Learning.
 import pandasSVG from '../../utils/images/body/skills/pandasSVG.svg'
 import tensorFlowSVG from '../../utils/images/body/skills/tensorFlowSVG.svg'
 import pythonSVG from '../../utils/images/body/skills/pythonSVG.svg'
+import matplotlibSVG from '../../utils/images/body/skills/matplotlibSVG.svg'
+import scikitLearnSVG from '../../utils/images/body/skills/scikitLearnSVG.svg'
+import djangoSVG from '../../utils/images/body/skills/djangoSVG.svg'
 const Skills = () => {
 
     const skills = [
@@ -60,7 +63,7 @@ const Skills = () => {
         },
         {
             name: 'Firebase',
-            mastery: 60,
+            mastery: 50,
             icon: FirebaseSVG
         },
         {
@@ -79,6 +82,11 @@ const Skills = () => {
             icon: SQLSVG
         },
         {
+            name: 'Django',
+            mastery: 0,
+            icon: djangoSVG
+        },
+        {
             name: 'Three JS',
             mastery: 10,
             icon: WebGlSVG
@@ -87,18 +95,28 @@ const Skills = () => {
     const MLSkills = [
         {
             name: 'ML',
-            mastery: 5,
+            mastery: 10,
             icon: machineLearningSVG
         },
         {
             name: 'Pandas',
-            mastery: 5,
+            mastery: 10,
             icon: pandasSVG
         },
         {
             name: 'Tensor Flow',
             mastery: 0,
             icon: tensorFlowSVG
+        },
+        {
+            name: 'Matplotlib',
+            mastery: 10,
+            icon: matplotlibSVG
+        },
+        {
+            name: 'ScikitLearn',
+            mastery: 0,
+            icon: scikitLearnSVG
         },
         {
             name: 'Python',

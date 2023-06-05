@@ -28,3 +28,6 @@ https://www.svgrepo.com/svg/375528/ai-platform-unified
 https://www.svgrepo.com/svg/191391/panda-bear-panda
 https://www.svgrepo.com/svg/375503/tensorflow-enterprise
 https://www.svgrepo.com/svg/452091/python
+https://www.svgrepo.com/svg/454722/book-education-learn
+https://www.svgrepo.com/svg/444237/chart-scatter-plot
+https://www.svgrepo.com/svg/373554/django
