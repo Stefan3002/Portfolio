@@ -1,5 +1,6 @@
 .experience-section {
   padding: 1em;
+  margin: 1em 0;
   background: var(--accent-color);
   color: white;
 }
