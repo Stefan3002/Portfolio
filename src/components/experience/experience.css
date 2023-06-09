@@ -1,0 +1,12 @@
+.experience-section {
+  padding: 1em;
+  background: var(--accent-color);
+  color: white;
+}
+.experience-section .experience-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=experience.css.map */

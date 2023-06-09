@@ -5,6 +5,7 @@ import Education from "../education/education";
 import Skills from "../skills/skills";
 import Achievements from "../achievements/achievements";
 import Certificates from "../certificates/certificates";
+import Experience from "../experience/experience";
 const BodySection = () => {
 
     return (
@@ -14,6 +15,7 @@ const BodySection = () => {
             </div>
             <h2 className='section-header'>Projects</h2>
             <Projects />
+            <Experience />
             <div className="center-container">
                 <Education />
             </div>

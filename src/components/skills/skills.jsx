@@ -23,6 +23,7 @@ import pythonSVG from '../../utils/images/body/skills/pythonSVG.svg'
 import matplotlibSVG from '../../utils/images/body/skills/matplotlibSVG.svg'
 import scikitLearnSVG from '../../utils/images/body/skills/scikitLearnSVG.svg'
 import djangoSVG from '../../utils/images/body/skills/djangoSVG.svg'
+import numpySVG from '../../utils/images/body/skills/numpySVG.svg'
 const Skills = () => {
 
     const skills = [
@@ -57,7 +58,7 @@ const Skills = () => {
             icon: NodeSVG
         },
         {
-            name: 'Monog DB',
+            name: 'Mongo DB',
             mastery: 45,
             icon: MongoSVG
         },
@@ -115,8 +116,25 @@ const Skills = () => {
         },
         {
             name: 'ScikitLearn',
-            mastery: 0,
+            mastery: 5,
             icon: scikitLearnSVG
+        },
+        {
+            name: 'NumPy',
+            mastery: 10,
+            icon: numpySVG
+        },
+        {
+            name: 'Python',
+            mastery: 15,
+            icon: pythonSVG
+        }
+    ]
+    const ProgrammingLangs = [
+        {
+            name: 'JavaScript',
+            mastery: 80,
+            icon: JSSVG
         },
         {
             name: 'Python',
@@ -177,6 +195,13 @@ const Skills = () => {
                 <Divider />
                 <ul className='web-skills'>
                     {MLSkills.map((skill) => {
+                        return <Skill skill={skill} key={skill.name} />
+                    })}
+                </ul>
+                <h3 className='subheader-name'>Main Programming Languages</h3>
+                <Divider />
+                <ul className='web-skills'>
+                    {ProgrammingLangs.map((skill) => {
                         return <Skill skill={skill} key={skill.name} />
                     })}
                 </ul>

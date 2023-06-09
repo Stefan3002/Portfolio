@@ -1,0 +1,28 @@
+.experience-card {
+  position: relative;
+  margin: 0 0.5em;
+  background: var(--accent-color);
+  text-align: center;
+  padding: 1em;
+  border-radius: 30px 0 30px 0;
+  transition: all 0.2s;
+}
+.experience-card:hover, .experience-card:focus {
+  color: black;
+  background: whitesmoke;
+  box-shadow: 10px 10px 10px black;
+  transform: scale(1.1);
+  transition: all 0.2s;
+}
+.experience-card ul {
+  list-style-type: none;
+}
+.experience-card .education-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.experience-card .education-date {
+  font-weight: 100;
+}
+
+/*# sourceMappingURL=experience-card.css.map */
