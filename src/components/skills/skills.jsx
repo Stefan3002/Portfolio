@@ -24,6 +24,8 @@ import matplotlibSVG from '../../utils/images/body/skills/matplotlibSVG.svg'
 import scikitLearnSVG from '../../utils/images/body/skills/scikitLearnSVG.svg'
 import djangoSVG from '../../utils/images/body/skills/djangoSVG.svg'
 import numpySVG from '../../utils/images/body/skills/numpySVG.svg'
+import wordpressSVG from '../../utils/images/body/skills/wordpressSVG.svg'
+import designSVG from '../../utils/images/body/skills/designSVG.svg'
 const Skills = () => {
 
     const skills = [
@@ -92,6 +94,16 @@ const Skills = () => {
             mastery: 10,
             icon: WebGlSVG
         },
+        {
+            name: 'Wordpress',
+            mastery: 50,
+            icon: wordpressSVG
+        },
+        {
+            name: 'Front Design',
+            mastery: 65,
+            icon: designSVG
+        }
     ]
     const MLSkills = [
         {
@@ -101,7 +113,7 @@ const Skills = () => {
         },
         {
             name: 'Pandas',
-            mastery: 10,
+            mastery: 35,
             icon: pandasSVG
         },
         {
@@ -126,7 +138,7 @@ const Skills = () => {
         },
         {
             name: 'Python',
-            mastery: 15,
+            mastery: 20,
             icon: pythonSVG
         }
     ]
@@ -138,7 +150,7 @@ const Skills = () => {
         },
         {
             name: 'Python',
-            mastery: 15,
+            mastery: 20,
             icon: pythonSVG
         }
     ]

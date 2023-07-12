@@ -44,6 +44,9 @@ const Footer = () => {
                 <p>https://www.svgrepo.com/svg/454722/book-education-learn</p>
                 <p>https://www.svgrepo.com/svg/444237/chart-scatter-plot</p>
                 <p>https://www.svgrepo.com/svg/373554/django</p>
+                <p>https://www.svgrepo.com/svg/373938/numpy</p>
+                <p>https://www.svgrepo.com/svg/227480/design-skills-ruler</p>
+                <p>https://www.svgrepo.com/svg/452136/wordpress</p>
             </div>}
         </div>
     )

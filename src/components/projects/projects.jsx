@@ -7,6 +7,7 @@ import AdventurePark from '../../utils/images/body/projects/AdventurePark.png'
 import SortAlgs from '../../utils/images/body/projects/SortAlgs.png'
 import Portfolio from '../../utils/images/body/projects/Portfolio.png'
 import DelDrones from '../../utils/images/body/projects/DelDrones.png'
+import oraLuiRobert from '../../utils/images/body/projects/Ora lui Robert.png'
 const Projects = () => {
 
     const projects = [
@@ -58,6 +59,13 @@ const Projects = () => {
             image: DelDrones,
             description: 'A modern and clean looking landing page for a product. Made using Bootstrap 5.',
             link: 'https://stefan3002.github.io/DelDrone/'
+        },
+        {
+            name: 'Ora lui Robert',
+            tech: ['✅ Wordpress'],
+            image: oraLuiRobert,
+            description: 'I have revised and optimised the look and feel of the web app.',
+            link: 'https://oraluirobert.com/'
         }
     ]
 

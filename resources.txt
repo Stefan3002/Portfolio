@@ -32,3 +32,5 @@ https://www.svgrepo.com/svg/454722/book-education-learn
 https://www.svgrepo.com/svg/444237/chart-scatter-plot
 https://www.svgrepo.com/svg/373554/django
 https://www.svgrepo.com/svg/373938/numpy
+https://www.svgrepo.com/svg/227480/design-skills-ruler
+https://www.svgrepo.com/svg/452136/wordpress
