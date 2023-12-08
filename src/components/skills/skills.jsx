@@ -86,7 +86,7 @@ const Skills = () => {
         },
         {
             name: 'Django',
-            mastery: 0,
+            mastery: 40,
             icon: djangoSVG
         },
         {
@@ -96,12 +96,12 @@ const Skills = () => {
         },
         {
             name: 'Wordpress',
-            mastery: 50,
+            mastery: 65,
             icon: wordpressSVG
         },
         {
             name: 'Front Design',
-            mastery: 65,
+            mastery: 70,
             icon: designSVG
         }
     ]
@@ -113,7 +113,7 @@ const Skills = () => {
         },
         {
             name: 'Pandas',
-            mastery: 35,
+            mastery: 25,
             icon: pandasSVG
         },
         {
@@ -138,7 +138,7 @@ const Skills = () => {
         },
         {
             name: 'Python',
-            mastery: 20,
+            mastery: 50,
             icon: pythonSVG
         }
     ]
@@ -150,7 +150,7 @@ const Skills = () => {
         },
         {
             name: 'Python',
-            mastery: 20,
+            mastery: 50,
             icon: pythonSVG
         }
     ]
